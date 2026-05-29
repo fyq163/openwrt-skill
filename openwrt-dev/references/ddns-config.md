@@ -1,5 +1,5 @@
 # DDNS 動態 DNS 配置
-
+> Status Quo: We don't have build in wifi fow now, only an AP (which was a router)
 ## 概述
 
 DDNS（Dynamic Domain Name System）允許使用動態公網 IP 的路由器自動更新 DNS 記錄，使域名始終指向當前的 IP 地址。OpenWrt 透過 ddns-scripts 套件支援多個 DDNS 提供者，包括 Cloudflare、DNSPod、DigitalOcean 等。本文重點涵蓋 Cloudflare DDNS 配置。
